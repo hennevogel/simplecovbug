@@ -3,4 +3,4 @@ require 'codecov'
 SimpleCov.start 'rails' do
   merge_timeout 3600
 end
-SimpleCov.formatter = SimpleCov::Formatter::Codecov
+# SimpleCov.formatter = SimpleCov::Formatter::Codecov

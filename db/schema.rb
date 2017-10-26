@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(version: 20171026134041) do
 
-  create_table "some_thing_else", force: :cascade do |t|
+  create_table "another_thing", force: :cascade do |t|
     t.string "name"
     t.integer "level"
     t.datetime "created_at", null: false
